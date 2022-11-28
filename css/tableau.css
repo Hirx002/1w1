@@ -1,0 +1,9 @@
+.mon_tableau {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+.mon_tableau td,
+.mon_tableau th {
+  border: 1px solid #555;
+  padding: 5px;
+}

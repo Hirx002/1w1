@@ -10,6 +10,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 h1 {
   font-size: 3rem;
@@ -35,22 +36,29 @@ nav a {
   padding: 4px 5rem;
 }
 #accueil {
-  background-color: aqua;
+  background-color: rgb(255, 0, 0);
   flex-direction: column;
   display: flex;
 }
+/*///////////////////////////////////////////////////////////////////////////////////////// INSCRIPTION*/
 #inscription {
   background-color: blue;
 }
+/*/ //////////////////////////////////////////////////////////////////////////////////////// GALERIE*/
 #galerie {
   background-color: crimson;
 }
+/*///////////////////////////////////////////////////////////////////////////////////////// EVENEMENT*/
 #evenement {
   background-color: pink;
 }
+/*/ //////////////////////////////////////////////////////////////////////////////////////// VIDEO*/
 #video {
   background-color: yellow;
 }
 #footer {
   background-color: orange;
+}
+#tableau {
+  background-color: cadetblue;
 }
